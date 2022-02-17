@@ -1,0 +1,51 @@
+a {
+  text-decoration: none;
+}
+
+/* home.blade.php */
+.table {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.table td {
+  border: 1px solid black;
+}
+
+
+
+@media (max-width: 900px) {
+  #text h2, 
+  #text p {
+    text-align: center;
+  }
+  .table {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    border: 1px solid black;
+  }
+  
+  .table table {
+    width: 80%;
+  }
+
+  .table .thead {
+    display: none;
+  }
+  
+  .table tr {
+    width: 100%;
+  }
+
+  .table td {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+ .table td:first-child {
+    background: #72ace9;
+    font-weight: bold;
+    text-align: center;
+  }
+}
